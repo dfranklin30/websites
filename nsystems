@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N SYSTEMS - Engineering Innovation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      color: #004080;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    .thumbs-up {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .thumbs-up img {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+    }
+    .section-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .rating {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>N SYSTEMS</h1>
+    <p>Engineering Innovation</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to N SYSTEMS</h2>
+      <p>Innovative Engineering Solutions for All Domains</p>
+      <img src="images/hero_section_image.png" alt="Hero Section Image" class="section-image">
+      <button>Learn More</button>
+      <div class="thumbs-up">
+        <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+        <span class="rating">4.5/5</span>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <img src="images/office_setting_image.png" alt="Office Setting" class="section-image">
+      <p>Brief history of N SYSTEMS, emphasizing the woman-owned business aspect.</p>
+      <div class="thumbs-up">
+        <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+        <span class="rating">4.8/5</span>
+      </div>
+
+      <h3>Mission, Vision, and Values</h3>
+      <div>
+        <h4>Innovation</h4>
+        <img src="images/innovation_image.png" alt="Innovation" class="section-image">
+        <p>Description of Innovation.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.7/5</span>
+        </div>
+      </div>
+      <div>
+        <h4>Quality</h4>
+        <img src="images/quality_image.png" alt="Quality" class="section-image">
+        <p>Description of Quality.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.9/5</span>
+        </div>
+      </div>
+      <div>
+        <h4>Teamwork</h4>
+        <img src="images/teamwork_image.png" alt="Teamwork" class="section-image">
+        <p>Description of Teamwork.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.6/5</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Our Team</h2>
+      <img src="images/team_members_image.png" alt="Team Members" class="section-image">
+      <p>Brief bios for each team member.</p>
+      <div class="thumbs-up">
+        <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+        <span class="rating">4.8/5</span>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div>
+        <h3>Technical Schematic</h3>
+        <img src="images/technical_schematic_image.png" alt="Technical Schematic" class="section-image">
+        <p>Description of Technical Schematic.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.7/5</span>
+        </div>
+      </div>
+      <div>
+        <h3>Construction Project</h3>
+        <img src="images/construction_project_image.png" alt="Construction Project" class="section-image">
+        <p>Description of Construction Project.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.9/5</span>
+        </div>
+      </div>
+      <div>
+        <h3>Product Design</h3>
+        <img src="images/product_design_image.png" alt="Product Design" class="section-image">
+        <p>Description of Product Design.</p>
+        <div class="thumbs-up">
+          <img src="images/thumbs_up_icon.png" alt="Thumbs Up">
+          <span class="rating">4.8/5</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or would like to discuss a project, please reach out to us!</p>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
