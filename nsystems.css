@@ -1,0 +1,129 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.chatbox {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.chat-message {
+    margin: 10px 0;
+}
+
+.chat-message p {
+    margin: 0;
+    padding: 5px;
+}
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecebeb;
+}
+.star-rating {
+    text-align: center;
+    font-family: 'font awesome 5 free';
+    backface-visibility: hidden!important;
+    font-weight: 400;
+    margin: 0 auto;
+    font-display: fallback
+    */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#hero img,
+#hero video {
+    max-width: 100%;
+    height: auto;
+}
+
+#services {
+    text-align: center;
+    padding: 20px;
+}
+
+#services .service {
+    display: inline-block;
+    margin: 10px;
+}
+
+#services img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#animations {
+    text-align: center;
+    padding: 20px;
+}
+
+.animation {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #eee;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Ensures the image is responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Example class to set specific dimensions */
+.img-small {
+    width: 150px;
+    height: 150px;
+}
+
+.img-medium {
+    width: 300px;
+    height: 300px;
+}
+
+.img-large {
+    width: 600px;
+    height: 600px;
+}
+
+/* Example class to set width and maintain aspect ratio */
+.img-responsive {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    height: auto;
+}
